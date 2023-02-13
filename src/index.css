@@ -76,6 +76,7 @@
 @media (max-width: 600px) {
     .app {
         flex-direction: column;
+        overflow: hidden;
     }
     .left-section {
         margin: 0 auto
