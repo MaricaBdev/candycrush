@@ -50,13 +50,7 @@ const ScoreBoard = ({ score }) => {
       <div className="score-board">
         <span>{userName} Score:</span>
         <span>{score}</span>
-        <button onClick={saveData}>Save</button>
-        <h2>High Scores:</h2>
-        {descendingGameStates?.map((gameState, index) => (
-          <div key={{index}}> 
-            <h3>{gameState.username}: {gameState.score}</h3>
-          </div>
-        ))}
+      
       </div>
     )
     
