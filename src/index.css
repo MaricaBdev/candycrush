@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "CandyCrush";
+    src: local("CandyCrush"),
+    url("./fonts/CandyCrush.ttf") format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "CandyCrush";
+}
+
+.app {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+    background-color: #f6e0b6;
+    
+
+}
+
+.left-section {
+    margin-right: 30px;
+}
+
+#logo {
+    width: 250px;
+    margin-bottom: 10px;
+    
+}
+
+.score-board {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.score-board span {
+    font-family:  "CandyCrush";
+    font-weight: 400;
+    font-size: 50px;
+    color: #9c7a41;
+    
+}
+
+
+.game {
+    width: 560px;
+    height: 560px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 50px 22px rgb(249, 242, 223);
+}
+
+
+
+
+.game img {
+    width: 70px;
+    height: 70px;
+}
+
