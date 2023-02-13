@@ -22,7 +22,7 @@ const ScoreBoard = ({ score }) => {
   const [userName, setUserName] = useState(null)
 
   const fetchData = async () => {
-    const response = await axios.get('http://localhost:8000/scores')
+    const response = await axios.get('https://candycrush-980exnuy4-maricabdev.vercel.app/scores')
     const data  = Object.keys(response.data.data).map(item => response.data.data[item])
     setGameStates(data)
   }
@@ -33,7 +33,7 @@ const ScoreBoard = ({ score }) => {
       username: userName,
       score: score
     }
-    axios.post('http://localhost:8000/addscore', data)
+    axios.post('https://candycrush-980exnuy4-maricabdev.vercel.app/addscore', data)
       .then(response =>  console.log(response))
       .catch(err => console.log(err))
       .then(fetchData)
