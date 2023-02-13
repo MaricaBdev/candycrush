@@ -18,4 +18,4 @@ Upcoming Updates:
 
 > Made with ReactJs
 
-Thank you for support 🤝
+Thank you 🤝
