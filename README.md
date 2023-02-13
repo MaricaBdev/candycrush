@@ -16,5 +16,5 @@ Upcoming Updates:
 - Touch Support on Mobile Devices
 - Optimise Mobile Design
 
-Made with React
+Made with React,
 Thank you for support 🤝
