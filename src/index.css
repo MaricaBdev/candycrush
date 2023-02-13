@@ -42,6 +42,9 @@
     
 }
 
+
+
+
 .score-board span {
     font-family:  "CandyCrush";
     font-weight: 400;
@@ -62,8 +65,30 @@
 
 
 
+
+
 .game img {
     width: 70px;
     height: 70px;
 }
 
+
+@media (max-width: 600px) {
+    .app {
+        flex-direction: column;
+    }
+    .left-section {
+        margin: 0 auto
+    }
+    #logo {
+        width: 200px;
+    }
+    
+    .score-board span {
+        font-size: 25px;
+    }
+    .game {
+        zoom: 55%;
+    }
+
+  }
